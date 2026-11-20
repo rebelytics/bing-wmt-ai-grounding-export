@@ -1,11 +1,11 @@
 ---
 name: bing-wmt-ai-grounding-export
 description: Export AI Performance data (cited pages and per-page grounding queries) from Bing Webmaster Tools at scale, through the same JSON requests the report page itself sends rather than clicking download buttons. Load this skill whenever the user wants to pull the AI Pages Report, AI Search/Grounding Queries Report, or "grounding query report" from Bing Webmaster Tools (bing.com/webmasters/aiperformance) — especially when they want every page matching a URL filter, a consolidated spreadsheet of grounding queries per page, or any bulk extraction that must not get the account rate-limited. Also trigger on mentions of "Bing AI performance", "grounding queries", "cited pages", "AI citations" in a Bing Webmaster Tools context, or requests to make such an extraction repeatable.
-version: 1.1.0
 license: CC-BY-4.0
 metadata:
   author: Eoghan Henn and contributors
   source: https://github.com/rebelytics/bing-wmt-ai-grounding-export
+  version: "1.1.1"
 ---
 
 # Bing Webmaster Tools — AI Performance / Grounding Query Export
